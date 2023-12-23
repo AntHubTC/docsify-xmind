@@ -15,10 +15,16 @@
     --code-block-margin: 0;
 }
 
+.xmind_preview {
+    position: relative;
+}
+
 .loading-xmind-overlay {
     height: 350px; 
     line-height: 350px; 
-    width: 750px;
+    // width: 750px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
+    position: absolute;
 }
