@@ -6,6 +6,8 @@
 
 -   A live preview of your xmind fiile
 
+[Demo online](https://anthubtc.github.io/docBuildMethod/#/docsifyXmind)
+
 This is my first plugin - please feel welcome to suggest features or raise bugs by creating an issue.
 
 ## Installation
