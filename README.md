@@ -13,13 +13,13 @@ This is my first plugin - please feel welcome to suggest features or raise bugs 
 1. Add the jsdelivr script
 
 ```html
-<script src="//cdn.jsdelivr.net/npm/docsify-xmind@latest/dist/index.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/AntHubTC/docsify-xmind@1.0/example/dist/index.min.js></script>
 ```
 
 2. Add the jsdelivr style
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-xmind@latest/dist/index.min.css" />
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/AntHubTC/docsify-xmind@1.0/example/dist/index.min.css" />
 ```
 
 
