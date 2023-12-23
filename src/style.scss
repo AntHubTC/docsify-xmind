@@ -1,0 +1,24 @@
+@import "~material-colors/dist/colors";
+
+.demo-copy-code-button,
+.demo_code .demo,
+.demo_preview,
+.demo_button,
+.demo_toggle,
+.demo_resize {
+    box-sizing: border-box;
+}
+
+//Docsify themeable
+:root {
+    --code-block-border-radius: 0;
+    --code-block-margin: 0;
+}
+
+.loading-xmind-overlay {
+    height: 350px; 
+    line-height: 350px; 
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,50 @@
+{
+    "name": "docsify-xmind",
+    "version": "2.1.0",
+    "description": "A live preview of your xmind fiile",
+    "main": "dist/index.min.js",
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "serve": "docsify serve ./example"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AntHubTC/docsify-xmind.git"
+    },
+    "keywords": [
+        "docsify",
+        "preview",
+        "documentation"
+    ],
+    "prettier": {
+        "endOfLine": "lf",
+        "printWidth": 80,
+        "semi": true,
+        "tabWidth": 4,
+        "trailingComma": "es5",
+        "bracketSpacing": true
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "author": "Jacob",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.6",
+        "@rollup/plugin-babel": "^5.3.0",
+        "@rollup/plugin-commonjs": "^20.0.0",
+        "@rollup/plugin-node-resolve": "^13.0.4",
+        "autoprefixer": "^10.3.4",
+        "docsify-cli": "^4.4.3",
+        "esbuild": "^0.12.22",
+        "material-colors": "^1.2.6",
+        "postcss": "^8.3.6",
+        "rollup": "^2.56.3",
+        "rollup-plugin-esbuild": "^4.5.0",
+        "rollup-plugin-postcss": "^4.0.1",
+        "sass": "^1.41.1"
+    }
+}
